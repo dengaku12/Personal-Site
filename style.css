@@ -1,13 +1,15 @@
 body {
-    text-align: center;
-    background-color: lavender;
+    background: #DCDCDC;
 }
 
-p {
+.wrap {
+    text-align: center;
+    background: lavender;
     margin-left: 5em;
     margin-right: 5em;
     font-size: 1.5em;
 }
+
 
 img {
     width: 7em;
@@ -19,4 +21,19 @@ img {
     
     flex-flow: row wrap;
     justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.grid > div {
+    background: violet;
+    padding: 1em;
+}
+
+.grid > div:nth-child(odd){
+    background: #FF00FF;
 }
