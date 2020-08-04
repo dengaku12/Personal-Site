@@ -32,6 +32,7 @@ img {
 .grid > div {
     background: violet;
     padding: 1em;
+    border-radius: 1rem;
 }
 
 .grid > div:nth-child(odd){
