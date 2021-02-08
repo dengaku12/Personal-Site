@@ -5,8 +5,8 @@ body {
 .wrap {
     text-align: center;
     background: lavender;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
     font-size: 1.5em;
 }
 
@@ -33,6 +33,7 @@ img {
     background: violet;
     padding: 1em;
     border-radius: 1rem;
+    font-size: 1.5em;
 }
 
 .grid > div:nth-child(odd){
