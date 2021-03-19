@@ -2,6 +2,29 @@ body {
     background: #DCDCDC;
 }
 
+header {
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+    color:#FF00FF;
+    font-size: 1.2em;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #FF00FF;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: #FF00FF;
+}
+
 .wrap {
     text-align: center;
     background: lavender;
@@ -9,7 +32,6 @@ body {
     margin-right: 4em;
     font-size: 1.5em;
 }
-
 
 img {
     width: 7em;
